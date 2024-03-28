@@ -6,7 +6,8 @@ module.exports = defineConfig({
     defaultCommandTimeout: 10000,
     responseTimeout: 10000,
     requestTimeout: 10000,
-    chromeWebSecurity: false
+    chromeWebSecurity: false,
+    projectId: 'r5o8qd'
     // setupNodeEvents(on, config) {
     //   // implement node event listeners here
     // },
