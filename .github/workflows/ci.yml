@@ -14,7 +14,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Install modules
-      run: npm install --unsafe-perm=true --allow-root
+      run: sudo npm install --unsafe-perm=true --allow-root
     - name: Run ESLint
       run: npm run lint
   cypress-tests-desktop:
